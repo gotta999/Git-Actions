@@ -6,7 +6,8 @@ on:
       - main
       - test
   label:
-    types:[created,edited]
+    types:
+      - created
   issues :
     types:
       - opened 
