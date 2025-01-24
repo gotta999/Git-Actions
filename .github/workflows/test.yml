@@ -23,3 +23,7 @@ jobs:
       run: |
         cd src
         python -m pytest addition.py
+
+    - name: Run deployment
+      run: |
+        echo "the job is completed and tested successfuly"
