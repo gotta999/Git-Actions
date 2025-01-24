@@ -2,7 +2,18 @@ name: example for Git Actions
 
 on: 
   push:
+    branches:
+      - main
+      - test
+  label:
+    types:[created,edited]
+  issues :
+    types:
+      - opened 
+      - labeled
   pull_request:
+    branches:
+      - main
 
 jobs:
   build:
