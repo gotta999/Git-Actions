@@ -1,6 +1,6 @@
 name: example for Git Actions
 
-on: [push]
+on: [push];[pull_request]
 
 jobs:
   build:
